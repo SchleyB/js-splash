@@ -1,0 +1,58 @@
+div#splash-screen {
+	position: fixed; 
+	top:0; 
+	bottom:0; 
+	left:0; 
+	right:0; 
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 10px;
+	line-height: 1.5;
+}
+
+div#splash-box {
+	background: rgba(0,0,0, 0.6);
+	width: 30%;
+	margin: 15% auto;
+	padding: 4%;
+}
+
+h1#splash-header {
+	color: #fff;
+	font-size: 2.5em;
+}
+
+p#splash-p {
+    font-size: 2em;
+    color: #f7f7f7;
+    font-weight: 200;
+    margin-bottom: .5em;
+}
+
+button.splash-button {
+    width: 80%;
+    margin: 2% auto;
+}
+
+.splash-button {
+  background: #3498db;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Helvetica';
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.splash-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
